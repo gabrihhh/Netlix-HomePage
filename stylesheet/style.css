@@ -133,3 +133,39 @@ font-size: 8vh;
     font-weight: 500;
     padding: 1.9vh 2vw;
 }
+
+.info1{
+    background-color: black;
+    position: relative;
+    top:30vw;
+    width:100vw;
+    height: 25vw;
+}
+.info1>h1{
+    color:white;
+    left:10vw;
+    top:6vw;
+    position: absolute;
+    font-size:50px;
+    
+    
+}
+.info1>h2{
+    color:white;
+    position:absolute;
+    left:10vw;
+    top:12vw;
+
+    
+}
+.info1>img{
+  position:absolute;
+  right:10vw;
+  width:40vw;
+}
+.info1>video{
+    position: absolute;
+    right:15.7vw;
+    top:6.5vw;
+    width:28.8vw;
+}
