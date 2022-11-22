@@ -134,12 +134,13 @@ font-size: 8vh;
     padding: 1.9vh 2vw;
 }
 
+/* =====================================primeira div=============================== */
 .info1{
     background-color: black;
     position: relative;
-    top:30vw;
     width:100vw;
     height: 25vw;
+    margin-top: 2vh;
 }
 .info1>h1{
     color:white;
@@ -162,6 +163,7 @@ font-size: 8vh;
   position:absolute;
   right:10vw;
   width:40vw;
+  z-index: 1;
 }
 .info1>video{
     position: absolute;
