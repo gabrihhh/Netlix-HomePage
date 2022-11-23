@@ -136,6 +136,7 @@ font-size: 8vh;
 
 /* =====================================primeira div=============================== */
 .info1{
+    display:flex;
     background-color: black;
     position: relative;
     width:100vw;
@@ -156,7 +157,7 @@ font-size: 8vh;
     position:absolute;
     left:10vw;
     top:12vw;
-
+    font-weight: 500;
     
 }
 .info1>img{
@@ -180,6 +181,7 @@ font-size: 8vh;
     background:black;
     justify-content:center;
     align-items:center;
+    
 }
 .info2>div{
     display:flex;
@@ -200,6 +202,7 @@ font-size: 8vh;
 }.info2>div>h2{
     color:white;
     font-size:4vh;
+    font-weight: 500;
 }
 .info2>div>img{
     z-index: 1;
@@ -212,4 +215,41 @@ font-size: 8vh;
     left:11vw;
     top:10vh;
     
+}
+
+.info3{
+    display:flex;
+    width:100vw;
+    height:80vh;
+    background:black;
+    margin-top:2vh;
+    
+}
+.info3>div{
+    
+    display:flex;
+    position:relative;
+    height:80vh;
+    width:50vw;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    text-align:start;
+}
+.info3>div>h1,h2{
+    color:white;
+    margin:1vh;
+}
+.info3>div>h1{
+    font-size:7vh;
+    position:absolute;
+    top:10vh;
+    left:5vw;
+}
+.info3>div>h2{
+    font-weight: 500;
+    font-size:4vh;
+}
+.info3>div>img{
+    width:35vw;
 }
